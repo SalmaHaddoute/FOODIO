@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import Navbar from './Compenents/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <>
-    <SpeedInsights />
+    
       {showLogin && <Login setShowLogin={setShowLogin} />}
       <div className='app'>
         {/* Pass setShowLogin correctly as a prop */}
