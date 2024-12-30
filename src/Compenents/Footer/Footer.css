@@ -42,6 +42,17 @@
     background-color: grey;
     border: none;
 }
+.footer h1 {
+    font-family: 'Poppins', sans-serif; /* Utilisez une police moderne et élégante */
+    font-size: 2.5rem; /* Ajustez la taille selon vos besoins */
+    color: #D0DE5B; /* Couleur rouge tomate */
+    font-weight: bold;
+    text-transform: lowercase; /* Tout en minuscules pour un look moderne */
+    margin: 0;
+    cursor: pointer; /* Change le curseur pour indiquer un lien cliquable */
+}
+
+
 @media (max-width:750px) {
     .footer-content{
         display: flex;

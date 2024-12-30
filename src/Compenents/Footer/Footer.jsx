@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-                <img src={assets.logo} alt="" />
+            <h1>Foodio</h1>
                 <p>Chose from a diverse menu featuring a delectable array
                     of dishes carfted with the finest ingredients and culinary
                     expertise. Our mission is to satisfy your craving and

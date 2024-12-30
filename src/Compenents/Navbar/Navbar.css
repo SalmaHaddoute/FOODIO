@@ -7,9 +7,20 @@
     justify-content: space-between;
     align-items: center;
 }
-.Navbar .logo{
-    width: 150px;
+.Navbar h1 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2.5rem; 
+    color: #D0DE5B; 
+    font-weight: bold;
+    text-transform: lowercase;
+    margin: 0;
+    
 }
+.Navbar h1:hover{
+    color: rgb(226, 64, 64);
+}
+
+
 .Navbar-menu{
     display: flex;
     list-style: none;
@@ -26,7 +37,7 @@
     background: transparent;
     font-size: 16px;
     color: #49557e;
-    border: 1px solid tomato;
+    border: 1px solid #D0DE5B;
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
@@ -49,7 +60,7 @@
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    background-color: tomato;
+    background-color: #D0DE5B;
     border-radius: 5px ;
     top: -8px;
     right: -8px ;
